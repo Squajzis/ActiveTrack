@@ -7,7 +7,7 @@ const errorMiddleware = require('./middleware/errorMiddleware');
 
 const activityRoutes = require('./src/routes/activityRoutes');
 const noteRoutes     = require('./src/routes/noteRoutes');
-const stravaRoutes   = require('./routes/stravaRoutes'); // <--- DODAJ
+const stravaRoutes = require('./src/routes/stravaRoutes'); // <--- DODAJ
 
 const app = express();
 connectDB();
