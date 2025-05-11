@@ -1,0 +1,25 @@
+# Ignoruj folder zależności npm
+node_modules/
+
+# Ignoruj plik ze zmiennymi środowiskowymi
+.env
+
+# Opcjonalnie: ignoruj logi npm debug
+npm-debug.log*
+
+# Opcjonalnie: ignoruj build/dist foldery (jeśli masz proces budowania frontendu)
+# build/
+# dist/
+
+# Opcjonalnie: ignoruj pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Opcjonalnie: ignoruj pliki konfiguracyjne edytorów (popularne przykłady)
+.vscode/
+.idea/
+
+# Ignoruj pliki tymczasowe
+*.tmp
+*.swp
+*.swo
