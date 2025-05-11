@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 const connectDB = require('./src/config/db'); 
-const errorMiddleware = require('../middleware/errorMiddleware');
+const errorMiddleware = require('./middleware/errorMiddleware');
 
 const activityRoutes = require('./src/routes/activityRoutes');
 const noteRoutes     = require('./src/routes/noteRoutes');
