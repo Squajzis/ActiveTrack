@@ -2,11 +2,11 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
-const connectDB = require('./src/config/db');
-const errorMiddleware = require('./middleware/errorMiddleware');
+const connectDB = require('./src/config/db'); 
+const errorMiddleware = require('./src/middleware/errorMiddleware');
 
-const activityRoutes = require('./routes/activityRoutes');
-const noteRoutes     = require('./routes/noteRoutes');
+const activityRoutes = require('./src/routes/activityRoutes');
+const noteRoutes     = require('./src/routes/noteRoutes');
 const stravaRoutes   = require('./routes/stravaRoutes'); // <--- DODAJ
 
 const app = express();
